@@ -3,7 +3,7 @@ import google.generativeai as genai
 import re
 
 # Set up the Gemini API key
-genai.configure(api_key="AIzaSyCCGB2lJLonpK7oEfWYe1V76k3f4oQ5rOk")
+genai.configure(api_key="Your Api-Key")
 
 # Function to check if a query is math-related
 def is_math_related(query):
